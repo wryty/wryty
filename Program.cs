@@ -12,6 +12,7 @@ namespace MyApp
             Console.Write(123);
             for (int i = 0; i < 100; i++) {
                 Console.Beep();
+                i = 100;
             }
         }
     }
