@@ -2,17 +2,20 @@
 
 
 
-namespace MyApp
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            Console.Write(123);
-            for (int i = 0; i < 100; i++) {
-                Console.Beep();
-                i = 100;
+namespace MyApp {
+    internal class Program {
+        static void Main(string[] args) {
+            int size;
+            Console.WriteLine("Введите, какой длины будет массив");
+            size = Console.Read();
+            List<int> arr = new List<int>();
+            for(int i = 0; i < size; i++) {
+                int tmp;
+                tmp = Console.Read();
+                arr[i] = tmp;
+            }
+            for(int i = 0; i < size; i++) {
+                Console.Write(arr[i]);
             }
         }
     }
