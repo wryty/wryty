@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\wryty\bin\Debug\net7.0\wryty.exe
+C:\Users\user\Desktop\wryty\bin\Debug\net7.0\wryty.deps.json
+C:\Users\user\Desktop\wryty\bin\Debug\net7.0\wryty.runtimeconfig.json
+C:\Users\user\Desktop\wryty\bin\Debug\net7.0\wryty.dll
+C:\Users\user\Desktop\wryty\bin\Debug\net7.0\wryty.pdb
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\wryty.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\wryty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\wryty.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\wryty.AssemblyInfo.cs
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\wryty.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\wryty.dll
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\refint\wryty.dll
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\wryty.pdb
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\wryty.genruntimeconfig.cache
+C:\Users\user\Desktop\wryty\obj\Debug\net7.0\ref\wryty.dll
