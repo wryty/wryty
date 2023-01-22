@@ -1,21 +1,30 @@
 ﻿using System;
-
-
-
-namespace MyApp {
-    internal class Program {
-        static void Main(string[] args) {
-            int size;
-            Console.WriteLine("Введите, какой длины будет массив");
-            size = Console.Read();
-            List<int> arr = new List<int>();
-            for(int i = 0; i < size; i++) {
-                int tmp;
-                tmp = Console.Read();
-                arr[i] = tmp;
-            }
-            for(int i = 0; i < size; i++) {
-                Console.Write(arr[i]);
+using System.IO;
+using Microsoft.VisualBasic.FileIO;
+ 
+namespace ConsoleApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            StringReader stringReader = new StringReader("\"Приветик\" 123123 \"Как дела?\"");
+            using (var parser = new TextFieldParser(stringReader))
+            {
+                parser.TextFieldType = FieldType.Delimited;
+                parser.SetDelimiters(" ");
+ 
+                while (!parser.EndOfData)
+                {
+                    string[] fields = parser.ReadFields();
+ 
+                    foreach (string field in fields)
+                    {
+                        Console.WriteLine(field);
+                    }
+                }
+ 
+                Console.ReadKey();
             }
         }
     }
